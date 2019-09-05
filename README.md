@@ -1,2 +1,2 @@
 # Design2
- For IOT
+ IoT design based on WELL Building Standard.

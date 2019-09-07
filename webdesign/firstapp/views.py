@@ -60,8 +60,8 @@ getdecimal()
 gettime()
 
 
-import matplotlib
-matplotlib.use('Agg')
+# import matplotlib
+# matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 # import pylab as pl
 plt.figure(figsize=(12, 5))
@@ -72,16 +72,16 @@ plt.ylabel("WaterQuality")
 plt.title("Water Quality")
 plt.show()
 plt.savefig("examples.png")
-def index(request):
-    context=time
-    test=decimal
-    print(context)
-    return HttpResponse(format(test))
-
 # def index(request):
-#     # template = loader.get_template('firstapp/search.html')
-#     context = {}
-#     return render(request, 'firstapp/search.html', context)
+#     context=time
+#     test=decimal
+#     print(context)
+#     return HttpResponse(format(test))
+
+def index(request):
+    # template = loader.get_template('firstapp/search.html')
+    context = {}
+    return render(request, 'firstapp/search.html', context)
 
 
 

@@ -1,6 +1,7 @@
 from django.template import loader
 from django.shortcuts import render
 from django.http import HttpResponse
+import datetime
 # import boto3
 #
 # dynamodb = boto3.resource('dynamodb')
@@ -28,33 +29,55 @@ import boto3
 from boto3.dynamodb.conditions import Key, Attr
 
 dynamodb = boto3.resource('dynamodb')
-table = dynamodb.Table('designDB2')
+table = dynamodb.Table('DATAfromSensor')
 
 response = table.scan(
-    FilterExpression=Attr('sensor_message').eq('water')
+    FilterExpression=Attr('topic').eq('DesignPolicy/Room00/temperature')
 )
 
 items = response['Items']
-
-
+print(items)
+print('no')
 decimal = []
 time = []
 
 def getdecimal():
     for i in range(len(items)):
-        record = []
-        record = items[i]['sensor_data']['sensor_data']
-        decimal.append(record)
+        # record = []
+        record = items[i]['payload_raw']
+        # print(record.value.decode("utf-8"))
+        a=record.value.decode("utf-8")
+        a=float(a)
+        a=round(a, 2)
+        # print(type(a))
+        decimal.append(a)
     #print(decimal)
     return decimal
 
 def gettime():
     for i in range(len(items)):
         record = []
-        record = items[i]['sensor_data']['time']
+        record = items[i]['time']
         time.append(record)
+    # print(time)
+    return time
+
+def gettime():
+    for i in range(len(items)):
+        timestamp = []
+        timestamp = items[i]['time']
+        inttime=[];
+        record=[]
+        # inttime= int(timestamp)
+        # timeStamp = float(inttime/1000)
+        # record = datetime.datetime.fromtimestamp(timeStamp)
+        #print(record)
+        time.append(timestamp)
+        # print(timestamp)
+        # print(record)
     #print(time)
     return time
+
 
 getdecimal()
 gettime()
@@ -82,13 +105,4 @@ def index(request):
     # template = loader.get_template('firstapp/search.html')
     context = {}
     return render(request, 'firstapp/search.html', context)
-
-
-
-
-
-
-
-
-
 

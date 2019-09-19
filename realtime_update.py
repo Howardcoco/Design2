@@ -21,6 +21,10 @@ items = response['Items']
 print(items)
 decimal = []
 time = []
+global timestamp
+timestamp=items[-1]['time']
+
+
 
 
 
@@ -41,10 +45,7 @@ def getdecimal(data_items):
 def gettime(data_items):
     data_time=[];
     for i in range(len(data_items)):
-        timestamp = []
         timestamp = data_items[i]['time']
-        inttime=[];
-        record=[]
         inttime= int(timestamp)
         timeStamp = float(inttime/1000)
         record = datetime.datetime.fromtimestamp(timeStamp)
@@ -55,18 +56,11 @@ def gettime(data_items):
     #print(time)
     return data_time
 
-
-
 decimal.extend(getdecimal(items))
 time.extend(gettime(items))
 
-
-
 print(len(time))
 print(time)
-
-
-
 
 X=[]
 Y=[]
@@ -75,12 +69,21 @@ Y = deque(maxlen=100)
 app = dash.Dash(__name__)
 app.layout = html.Div(
     [
-        dcc.Graph(id='live-graph', animate=True),
-        dcc.Interval(
-            id='graph-update',
-            interval=5*1000,
-            n_intervals=0
-        ),
+        html.Div([
+            html.H2('Room00',
+                    style={
+                        'color': 'darkblue',
+                        'text-align':'center',
+                    }),
+        ]),
+        html.Div([
+            dcc.Graph(id='live-graph', animate=True),
+            dcc.Interval(
+                id='graph-update',
+                interval=5*1000,
+                n_intervals=0,
+            ),
+        ]),
     ]
 )
 
@@ -88,13 +91,14 @@ app.layout = html.Div(
               [Input('graph-update', 'n_intervals')])
 
 def update_graph_scatter(n):
+
     print(n)
     global timestamp
     global X
     global Y
-    if n==0:
+    global start
+    if n==0 and len(X)==0:
         print("start")
-        timestamp=items[-1]['time']
         X.extend(time)
         Y.extend(decimal)
     else:
@@ -113,8 +117,8 @@ def update_graph_scatter(n):
             print(decimal2)
             print(time2)
             # print(n)
-            X.append(time2[0])
-            Y.append(decimal2[0])
+            X.append(time2[0])     # Later this part will change into
+            Y.append(decimal2[0])  #
             timestamp=items2[len(items2)-1]['time']
 
 
@@ -126,8 +130,10 @@ def update_graph_scatter(n):
             name='Scatter',
             mode= 'lines+markers'
             )
-    return {'data': [data],'layout' : go.Layout(xaxis=dict(range=[min(X),max(X)]),
+
+    figure = {'data': [data],'layout' : go.Layout(xaxis=dict(range=[min(X),max(X)]),
                                                 yaxis=dict(range=[min(Y),max(Y)]),)}
+    return figure
 
 if __name__ == '__main__':
     app.run_server(debug=True)

@@ -131,7 +131,7 @@ def update_graph_scatter(n):
             mode= 'lines+markers'
             )
 
-    figure = {'data': [data],'layout' : go.Layout(xaxis=dict(range=[min(X),max(X)]),
+    figure = {'data': [data],'layout' : go.Layout(title='Temperature',xaxis=dict(range=[min(X),max(X)]),
                                                 yaxis=dict(range=[min(Y),max(Y)]),)}
     return figure
 

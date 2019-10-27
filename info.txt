@@ -1,34 +1,57 @@
-Folder PATH listing for volume New Volume
-Volume serial number is 30CB-D92E
-Design2
-│   .gitattributes
+Tree of the profiles:
+│   .gitattributes 
 │   info.txt
 │   README.md
 │   realtime_update.py
 │   
-├───.idea
+├───.idea (useless)
+│   │   Design2.iml
+│   │   misc.xml
+│   │   modules.xml
+│   │   vcs.xml
+│   │   workspace.xml
+│   │   
+│   └───inspectionProfiles
+│           profiles_settings.xml
 │           
-├───Mqtt client
+├───Mqtt client (for sending fake data)
 │       Senddata.js
 │       
-└───webdesign
-    │   requirements_dash.txt
-    │   requirements_django.txt
+└───webdesign 
+    │   requirements_dash.txt (dependencies for all dashboards)
+    │   requirements_django.txt (dependencies for all the main web page)
     │   
-    ├───.idea
-    │           
-    ├───Air
+    ├───.idea 
     │   │   .gitignore
-    │   │   Air.zip
-    │   │   application.py
+    │   │   DesignProject.iml
+    │   │   misc.xml
+    │   │   modules.xml
+    │   │   vcs.xml
+    │   │   workspace.xml
+    │   │   
+    │   └───inspectionProfiles
+    │           profiles_settings.xml
+    │           
+    ├───Air (dashboard for air qualities)
+    │   │   .gitignore
+    │   │   application.py (important)
     │   │   requirements.txt
     │   │   
     │   ├───.elasticbeanstalk
+    │   │       config.yml
     │   │       
     │   └───.idea
+    │       │   Air.iml
+    │       │   misc.xml
+    │       │   modules.xml
+    │       │   vcs.xml
+    │       │   workspace.xml
+    │       │   
+    │       └───inspectionProfiles
+    │               profiles_settings.xml
     │               
-    ├───Homepage
-    │       application.py
+    ├───Homepage (dashboard for the table in homepage)
+    │       application.py (important)
     │       requirements.txt
     │       
     ├───myproject4
@@ -38,29 +61,170 @@ Design2
     │   │   requirements.txt
     │   │   
     │   ├───.ebextensions
+    │   │       django.config
     │   │       
     │   ├───.elasticbeanstalk
+    │   │       config.yml
     │   │       
     │   ├───.idea
+    │   │   │   misc.xml
+    │   │   │   modules.xml
+    │   │   │   myproject4.iml
+    │   │   │   vcs.xml
+    │   │   │   workspace.xml
+    │   │   │   
+    │   │   └───inspectionProfiles
+    │   │           profiles_settings.xml
     │   │           
-    │   ├───myproject4
+    │   ├───myproject4 
+    │   │   │   settings.py (important)
+    │   │   │   urls.py
+    │   │   │   wsgi.py
+    │   │   │   __init__.py
+    │   │   │   
+    │   │   └───__pycache__
+    │   │           settings.cpython-37.pyc
+    │   │           urls.cpython-37.pyc
+    │   │           wsgi.cpython-37.pyc
+    │   │           __init__.cpython-37.pyc
     │   │           
     │   └───users
+    │       │   admin.py
+    │       │   apps.py
+    │       │   app_settings.py
+    │       │   compat.py
+    │       │   exceptions.py
+    │       │   models.py
+    │       │   tests.py
+    │       │   urls.py
+    │       │   views.py
+    │       │   __init__.py
+    │       │   
+    │       ├───img
+    │       │   └───logo
+    │       │           logo.png
+    │       │           
+    │       ├───migrations
+    │       │   │   __init__.py
+    │       │   │   
+    │       │   └───__pycache__
+    │       │           __init__.cpython-37.pyc
+    │       │           
+    │       ├───static (important)
+    │       │   │   index_Air.html
+    │       │   │   index_H1.html
+    │       │   │   index_Home.html
+    │       │   │   index_Tem.html
+    │       │   │   index_Water.html
+    │       │   │   __init__.py
+    │       │   │   
+    │       │   ├───img
+    │       │   │   │   WGE&S BLACK LOGO.jpg
+    │       │   │   │   __init__.py
+    │       │   │   │   
+    │       │   │   └───logo
+    │       │   │           logo.png
+    │       │   │           
+    │       │   ├───style
+    │       │   │       index.css
+    │       │   │       index_Air.html
+    │       │   │       index_H1.html
+    │       │   │       index_Home.html
+    │       │   │       index_Tem.html
+    │       │   │       index_Water.html
+    │       │   │       __init__.py
+    │       │   │       
+    │       │   └───users
+    │       │       │   __init__.py
+    │       │       │   
+    │       │       └───css
+    │       │               account.css
+    │       │               __init__.py
+    │       │               
+    │       ├───templates
+    │       │   │   __init__.py
+    │       │   │   
+    │       │   ├───account
+    │       │   │   │   account_inactive.html
+    │       │   │   │   base.html
+    │       │   │   │   email.html
+    │       │   │   │   email_confirm.html
+    │       │   │   │   login.html
+    │       │   │   │   logout.html
+    │       │   │   │   password_change.html
+    │       │   │   │   password_reset.html
+    │       │   │   │   password_reset_done.html
+    │       │   │   │   password_reset_from_key.html
+    │       │   │   │   password_reset_from_key_done.html
+    │       │   │   │   password_set.html
+    │       │   │   │   signup.html
+    │       │   │   │   signup_closed.html
+    │       │   │   │   verification_sent.html
+    │       │   │   │   verified_email_required.html
+    │       │   │   │   
+    │       │   │   ├───email
+    │       │   │   │       email_confirmation_message.txt
+    │       │   │   │       email_confirmation_signup_message.txt
+    │       │   │   │       email_confirmation_signup_subject.txt
+    │       │   │   │       email_confirmation_subject.txt
+    │       │   │   │       password_reset_key_message.txt
+    │       │   │   │       password_reset_key_subject.txt
+    │       │   │   │       
+    │       │   │   ├───messages
+    │       │   │   │       cannot_delete_primary_email.txt
+    │       │   │   │       email_confirmation_sent.txt
+    │       │   │   │       email_confirmed.txt
+    │       │   │   │       email_deleted.txt
+    │       │   │   │       logged_in.txt
+    │       │   │   │       logged_out.txt
+    │       │   │   │       password_changed.txt
+    │       │   │   │       password_set.txt
+    │       │   │   │       primary_email_set.txt
+    │       │   │   │       unverified_primary_email.txt
+    │       │   │   │       
+    │       │   │   └───snippets
+    │       │   │           already_logged_in.html
+    │       │   │           
+    │       │   └───users
+    │       │           index.css
+    │       │           profile1.html
+    │       │           profile2.html
+    │       │           WGE&S BLACK LOGO.jpg
+    │       │           __init__.py
+    │       │           
+    │       └───__pycache__
+    │               admin.cpython-37.pyc
+    │               models.cpython-37.pyc
+    │               urls.cpython-37.pyc
+    │               views.cpython-37.pyc
+    │               __init__.cpython-37.pyc
     │               
-    ├───Thermal
+    ├───Thermal (dashboard for thermal qualities)
     │   │   application.py
     │   │   requirements.txt
     │   │   
     │   └───.idea
+    │       │   misc.xml
+    │       │   modules.xml
+    │       │   Thermal.iml
+    │       │   workspace.xml
+    │       │   
+    │       └───inspectionProfiles
+    │               profiles_settings.xml
     │               
-    └───Water
+    └───Water (dashboard for water qualities)
         │   .gitignore
         │   application.py
         │   requirements.txt
-        │   Temperature.zip
         │   
         ├───.elasticbeanstalk
         │       config.yml
         │       
         └───.idea
-                    
+            │   misc.xml
+            │   modules.xml
+            │   Temperature.iml
+            │   workspace.xml
+            │   
+            └───inspectionProfiles
+                    profiles_settings.xml

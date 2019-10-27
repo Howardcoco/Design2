@@ -2,129 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dd33caf-25b2-4d89-8165-972087c45f2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/DesignProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Air/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Air/.idea/Air.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Air/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Air/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Air/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Air/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Air/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Air/Air.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Air/application.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Air/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homepage/Homepage.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homepage/application.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homepage/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thermal/.idea/Thermal.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thermal/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thermal/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thermal/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thermal/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thermal/Thermal.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thermal/application.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thermal/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Water/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Water/.idea/Temperature.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Water/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Water/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Water/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Water/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Water/Temperature.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Water/application.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Water/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/.ebextensions/django.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/.idea/myproject4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/myproject4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/myproject4/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/myproject4/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/myproject4/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/app_settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/img/logo/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/realtime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/static/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/static/img/WGE&amp;S BLACK LOGO.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/static/img/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/static/img/logo/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/static/index_Air.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/static/index_H1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/static/index_Home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/static/index_Tem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/static/index_Water.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/static/style/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/static/style/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/static/style/index_Air.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/static/style/index_H1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/static/style/index_Home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/static/style/index_Tem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/static/style/index_Water.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/static/users/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/static/users/css/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/static/users/css/account.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/account_inactive.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/email/email_confirmation_message.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/email/email_confirmation_signup_message.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/email/email_confirmation_signup_subject.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/email/email_confirmation_subject.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/email/password_reset_key_message.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/email/password_reset_key_subject.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/email_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/messages/cannot_delete_primary_email.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/messages/email_confirmation_sent.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/messages/email_confirmed.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/messages/email_deleted.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/messages/logged_in.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/messages/logged_out.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/messages/password_changed.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/messages/password_set.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/messages/primary_email_set.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/messages/unverified_primary_email.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/password_change.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/password_reset.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/password_reset_from_key.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/password_reset_from_key_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/password_set.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/signup_closed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/snippets/already_logged_in.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/verification_sent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/account/verified_email_required.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/users/WGE&amp;S BLACK LOGO.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/users/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/users/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/users/profile1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/templates/users/profile2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject4/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -160,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.application (1)">
+  <component name="RunManager" selected="Python.application (3)">
     <configuration name="application (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DesignProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,6 +53,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Water/application.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="application (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DesignProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Homepage" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Homepage/application.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="application (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DesignProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Thermal" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Thermal/application.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,7 +126,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.application (3)" />
         <item itemvalue="Python.application (1)" />
+        <item itemvalue="Python.application (2)" />
         <item itemvalue="Python.application" />
       </list>
     </recent_temporary>

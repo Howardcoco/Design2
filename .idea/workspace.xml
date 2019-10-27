@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="473e3ec9-1ac4-4ad2-a653-4775ccbbc370" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/webdesign/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webdesign/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webdesign/firstapp/templates/firstapp/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/webdesign/firstapp/templates/firstapp/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webdesign/firstapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/webdesign/firstapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +15,8 @@
   </component>
   <component name="ProjectId" id="1R0QIwsWMP55FqhEyyr3hBmpQb7" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/webdesign" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,7 +38,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

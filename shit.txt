@@ -1,18 +1,13 @@
-ELEC5552_Design_Project_22
-===
-IoT for indoor environment quality monitoring<br>
-Group B: Software platform design and development.<br>
-Incuding<br>
-- AWS IoT client code<br>
-- Front-end Django code<br>
-
-Tree of the profiles:
-│   .gitattributes 
+Folder PATH listing for volume New Volume
+Volume serial number is 30CB-D92E
+E:.
+│   .gitattributes
 │   info.txt
 │   README.md
 │   realtime_update.py
+│   shit.txt
 │   
-├───.idea (useless)
+├───.idea
 │   │   Design2.iml
 │   │   misc.xml
 │   │   modules.xml
@@ -22,14 +17,14 @@ Tree of the profiles:
 │   └───inspectionProfiles
 │           profiles_settings.xml
 │           
-├───Mqtt client (for sending fake data)
+├───Mqtt client
 │       Senddata.js
 │       
-└───webdesign 
-    │   requirements_dash.txt (dependencies for all dashboards)
-    │   requirements_django.txt (dependencies for all the main web page)
+└───webdesign
+    │   requirements_dash.txt
+    │   requirements_django.txt
     │   
-    ├───.idea 
+    ├───.idea
     │   │   .gitignore
     │   │   DesignProject.iml
     │   │   misc.xml
@@ -40,9 +35,10 @@ Tree of the profiles:
     │   └───inspectionProfiles
     │           profiles_settings.xml
     │           
-    ├───Air (dashboard for air qualities)
+    ├───Air
     │   │   .gitignore
-    │   │   application.py (important)
+    │   │   Air.zip
+    │   │   application.py
     │   │   requirements.txt
     │   │   
     │   ├───.elasticbeanstalk
@@ -58,8 +54,9 @@ Tree of the profiles:
     │       └───inspectionProfiles
     │               profiles_settings.xml
     │               
-    ├───Homepage (dashboard for the table in homepage)
-    │       application.py (important)
+    ├───Homepage
+    │       application.py
+    │       Homepage.zip
     │       requirements.txt
     │       
     ├───myproject4
@@ -84,8 +81,8 @@ Tree of the profiles:
     │   │   └───inspectionProfiles
     │   │           profiles_settings.xml
     │   │           
-    │   ├───myproject4 
-    │   │   │   settings.py (important)
+    │   ├───myproject4
+    │   │   │   settings.py
     │   │   │   urls.py
     │   │   │   wsgi.py
     │   │   │   __init__.py
@@ -103,8 +100,10 @@ Tree of the profiles:
     │       │   compat.py
     │       │   exceptions.py
     │       │   models.py
+    │       │   realtime.py
     │       │   tests.py
     │       │   urls.py
+    │       │   utils.py
     │       │   views.py
     │       │   __init__.py
     │       │   
@@ -118,7 +117,7 @@ Tree of the profiles:
     │       │   └───__pycache__
     │       │           __init__.cpython-37.pyc
     │       │           
-    │       ├───static (important)
+    │       ├───static
     │       │   │   index_Air.html
     │       │   │   index_H1.html
     │       │   │   index_Home.html
@@ -207,9 +206,10 @@ Tree of the profiles:
     │               views.cpython-37.pyc
     │               __init__.cpython-37.pyc
     │               
-    ├───Thermal (dashboard for thermal qualities)
+    ├───Thermal
     │   │   application.py
     │   │   requirements.txt
+    │   │   Thermal.zip
     │   │   
     │   └───.idea
     │       │   misc.xml
@@ -220,10 +220,11 @@ Tree of the profiles:
     │       └───inspectionProfiles
     │               profiles_settings.xml
     │               
-    └───Water (dashboard for water qualities)
+    └───Water
         │   .gitignore
         │   application.py
         │   requirements.txt
+        │   Temperature.zip
         │   
         ├───.elasticbeanstalk
         │       config.yml

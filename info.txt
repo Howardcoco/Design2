@@ -1,0 +1,66 @@
+Folder PATH listing for volume New Volume
+Volume serial number is 30CB-D92E
+Design2
+│   .gitattributes
+│   info.txt
+│   README.md
+│   realtime_update.py
+│   
+├───.idea
+│           
+├───Mqtt client
+│       Senddata.js
+│       
+└───webdesign
+    │   requirements_dash.txt
+    │   requirements_django.txt
+    │   
+    ├───.idea
+    │           
+    ├───Air
+    │   │   .gitignore
+    │   │   Air.zip
+    │   │   application.py
+    │   │   requirements.txt
+    │   │   
+    │   ├───.elasticbeanstalk
+    │   │       
+    │   └───.idea
+    │               
+    ├───Homepage
+    │       application.py
+    │       requirements.txt
+    │       
+    ├───myproject4
+    │   │   .gitignore
+    │   │   db.sqlite3
+    │   │   manage.py
+    │   │   requirements.txt
+    │   │   
+    │   ├───.ebextensions
+    │   │       
+    │   ├───.elasticbeanstalk
+    │   │       
+    │   ├───.idea
+    │   │           
+    │   ├───myproject4
+    │   │           
+    │   └───users
+    │               
+    ├───Thermal
+    │   │   application.py
+    │   │   requirements.txt
+    │   │   
+    │   └───.idea
+    │               
+    └───Water
+        │   .gitignore
+        │   application.py
+        │   requirements.txt
+        │   Temperature.zip
+        │   
+        ├───.elasticbeanstalk
+        │       config.yml
+        │       
+        └───.idea
+                    
